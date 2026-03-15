@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow project folders
+!README.txt
+!Luki/
+!Luki/**
+!Piotrunio/
+!Piotrunio/**
+!Szymon/
+!Szymon/**
+!.gitignore
+
+# Ignore common junk inside project folders
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/*.pyc
